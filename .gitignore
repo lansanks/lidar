@@ -1,0 +1,28 @@
+# ROS / colcon / catkin build outputs
+**/build/
+**/install/
+**/log/
+**/logs/
+**/devel/
+
+# CMake / compiler outputs
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/compile_commands.json
+*.o
+*.a
+*.so
+*.so.*
+*.d
+
+# Python caches
+**/__pycache__/
+*.py[cod]
+
+# Archives
+*.zip
+
+# Local editor settings and indexes
+**/.vscode/
