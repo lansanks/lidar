@@ -17,6 +17,9 @@
 *.so.*
 *.d
 
+# Vendor SDK libraries required by source packages
+!radar/unilidar/unitree_lidar_sdk/lib/**/libunitree_lidar_sdk.a
+
 # Python caches
 **/__pycache__/
 *.py[cod]
